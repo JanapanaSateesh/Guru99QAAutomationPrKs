@@ -10,6 +10,7 @@ import guru99.qa.utilities.TestNGListners;
 
 public class HomePageTest extends BaseTest {
 	LoginPage loginpageobject;
+	//comment from Master Branch
 
 	@Test(groups = {"sanity","regression","home"})
 	public void TC006_VerifyAllMenuItemsAreVisible() throws InterruptedException {
